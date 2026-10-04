@@ -108,7 +108,7 @@ export const SponsorModal: React.FC<SponsorModalProps> = ({ sponsor, onClose, on
               <span>About the Organization</span>
             </h4>
             <div className="p-4 rounded-lg bg-zinc-50 border-2 border-black text-sm text-zinc-700 font-medium">
-              To be announced
+               {sponsor.description}
             </div>
           </div>
 
