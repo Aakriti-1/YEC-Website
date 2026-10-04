@@ -3,7 +3,7 @@ import { Sponsor } from '../types';
 export const SPONSORS_2026_2027: Sponsor[] = [
   {
     id: 'sponsor-1',
-    name: 'To Be Announced',
+    name: 'Sushi Shop',
     logo: 'https://i.imgur.com/W1ElywB.png',
     location: 'York Lanes, York University (4700 Keele St, Toronto, ON)',
     industry: 'Culinary & Hospitality / Community Partner',
