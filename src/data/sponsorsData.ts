@@ -4,10 +4,10 @@ export const SPONSORS_2026_2027: Sponsor[] = [
   {
     id: 'sponsor-1',
     name: 'To Be Announced',
-    logo: 'TBA',
-    location: 'To be announced',
-    industry: 'To be announced',
-    description: 'To be announced',
+    logo: 'https://i.imgur.com/W1ElywB.png',
+    location: 'York Lanes, York University (4700 Keele St, Toronto, ON)',
+    industry: 'Culinary & Hospitality / Community Partner',
+    description: 'Official event catering, competitor refreshments, and student discount partner for YEC 2026/2027 participants.',
     websiteUrl: '#packages-section'
   },
   {
