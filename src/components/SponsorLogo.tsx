@@ -153,7 +153,19 @@ export const SponsorLogo: React.FC<SponsorLogoProps> = ({ logoKey, className = '
         </div>
       );
 
-    default:
+      default:
+      if (logoKey && (logoKey.startsWith('http://') || logoKey.startsWith('https://'))) {
+        return (
+          <div className={`flex items-center justify-center bg-white rounded border-2 border-black overflow-hidden ${sizeClasses} ${className}`}>
+            <img
+              src={logoKey}
+              alt="Sponsor logo"
+              className="h-full w-auto object-contain"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+        );
+      }
       return (
         <div className={`flex items-center justify-center bg-zinc-100 text-zinc-700 font-bold rounded border-2 border-dashed border-zinc-400 ${sizeClasses} ${className}`}>
           <span className="font-mono text-xs">{logoKey || 'TBA'}</span>
